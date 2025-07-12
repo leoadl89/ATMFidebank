@@ -19,8 +19,7 @@ public class Cliente extends Persona implements Serializable {
         super(nombre, apellido);
         this.pin = pin;
         this.cuentas = new ArrayList<>();
-        // Si quisieras agregar una cuenta por defecto, podrías hacerlo aquí:
-        // cuentas.add(new Cuenta("000001", 0.0));
+    
     }
 
     /**

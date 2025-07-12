@@ -9,7 +9,7 @@ public class Comprobante implements Serializable {
         this.transaccion = transaccion;
     }
 
-    /** Genera un texto simple con los datos de la transacción */
+
     public String generarTexto() {
         return  "Tipo       : " + transaccion.getTipo()  + "\n" +
                 "Monto      : ₡" + transaccion.getMonto() + "\n" +
